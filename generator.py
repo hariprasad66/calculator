@@ -29,6 +29,7 @@ for sign in signs:
     for num1 in nums:
         for num2 in nums:
             equation = "d({}){}d({})".format(num1, sign, num2)
+            for
             try:
                 equals = eval(equation)
             except ZeroDivisionError:
